@@ -1,6 +1,4 @@
 
-1. 点到直线
-$$ {\left |{AX_0+BX_0+C} \right |} \over \sqrt{A^2+B^2} $$  
 1. 和差化积  
 $$ \sin \alpha + \sin \beta = 2 \sin { \left ( {\alpha + \beta } \over 2 \right ) } \cos \left ( {\alpha - \beta } \over 2 \right ) $$
 $$\sin \alpha - \sin \beta = 2 \cos { \left ( {\alpha + \beta } \over 2 \right ) } \sin \left ( {\alpha - \beta } \over 2 \right ) $$
