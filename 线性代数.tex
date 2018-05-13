@@ -1,0 +1,54 @@
+%% LyX 2.2.3 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[UTF8]{ctexart}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+% 如果没有这一句命令，XeTeX会出错，原因参见
+% http://bbs.ctex.org/viewthread.php?tid=60547
+\DeclareRobustCommand\nobreakspace{\leavevmode\nobreak\ }
+
+\makeatother
+
+\begin{document}
+
+\section{常识}
+
+正交阵 $A^{T}A=AA^{T}=E$, $A^{-1}=A^{T}$
+
+实对称 $A^{T} =A $
+
+反对称 $A^{T}=-A$
+
+A为实矩阵，若$A^{T}A=0\text{则}$$a_{i}=0,A=0$
+
+正交向量内积为0
+
+\section{合同}
+
+定义 C可逆，$B=C^{T}AC$
+
+标准型 只有平方项
+
+规范型 只有 0 1 -1 
+
+\section{范德蒙行列式}
+
+$\begin{vmatrix}1 & 1 & \cdots & 1\\
+x_{1} & x_{2} & \cdots & x_{3}\\
+\vdots & \vdots & \vdots & \vdots\\
+x_{1}^{n-1} & x_{2}^{n-2} & \vdots & x_{3}^{n-1}
+\end{vmatrix}=\prod_{1\leq i<j\leq n}(x_{j}-s_{i})$
+
+\section{拉普拉斯展开式}
+
+$\begin{vmatrix}O & A_{n\times n}\\
+B_{m\times m} & O
+\end{vmatrix}$=$\begin{vmatrix}C & A\\
+B & O
+\end{vmatrix}=\begin{vmatrix}O & A\\
+B & C
+\end{vmatrix}$=$(-1)^mn $
+\end{document}
