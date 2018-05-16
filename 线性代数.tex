@@ -3,6 +3,7 @@
 \documentclass[UTF8]{ctexart}
 \usepackage[T1]{fontenc}
 \usepackage{amsmath}
+\usepackage{mathdots}
 
 \makeatletter
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
@@ -18,13 +19,23 @@
 
 正交阵 $A^{T}A=AA^{T}=E$, $A^{-1}=A^{T}$
 
-实对称 $A^{T} =A $
+实对称 $A^{T}=A$
 
 反对称 $A^{T}=-A$
 
 A为实矩阵，若$A^{T}A=0\text{则}$$a_{i}=0,A=0$
 
 正交向量内积为0
+
+n阶行列式全部展开式总共n！项，每行取自不同行不同列的乘积
+
+n$\geq$2时，n！是偶数
+
+逆对角线正负号$(-1)^{\frac{n(n-1)}{2}}$
+
+$(A^{*})^{*}=|A|^{n-2}A$
+
+$A+A^{T}$是对称矩阵，$A-A^{T}$是反对称矩阵
 
 \section{合同}
 
@@ -50,5 +61,26 @@ B_{m\times m} & O
 B & O
 \end{vmatrix}=\begin{vmatrix}O & A\\
 B & C
-\end{vmatrix}$=$(-1)^mn $
+\end{vmatrix}$=$(-1)^{mn}|A||B|$
+
+$\begin{array}{|cc|}
+A_{mm} & O\\
+O & B_{nn}
+\end{array}$=$\begin{vmatrix}A & C\\
+O & B
+\end{vmatrix}=\begin{vmatrix}A & O\\
+C & B
+\end{vmatrix}=|A||B|$
+
+A=$\begin{bmatrix} &  &  & A_{1}\\
+ &  & A_{2}\\
+ & \iddots\\
+A_{n}
+\end{bmatrix}$,$A^{-1}=\begin{bmatrix} &  &  & A_{n}^{-1}\\
+ &  & \iddots\\
+ & A_{2}^{-1}\\
+A_{1}^{-1}
+\end{bmatrix}$
+
+
 \end{document}
