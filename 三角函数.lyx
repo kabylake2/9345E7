@@ -339,5 +339,24 @@ f(x) g(x)互为反函数
  g(f(x))
 \end_layout
 
+\begin_layout Section
+傅里叶级数
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\text{f(x)}\sim S(x)=\frac{a_{0}}{2}+\sum_{n=1}^{\infty}(a_{n}\cos\frac{n\pi x}{l}+b_{n}\sin\frac{n\pi x}{l})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\begin{cases}
+a_{n}=\frac{1}{l}\int_{-l}^{l}f(x)\cos\frac{n\pi x}{l}dx & b_{n}=\end{cases}$
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
