@@ -1,5 +1,5 @@
-%% LyX 2.2.3 created this file.  For more info, see http://www.lyx.org/.
-%% Do not edit unless you really know what you are doing.
+
+
 \documentclass[UTF8]{ctexart}
 \usepackage[T1]{fontenc}
 \usepackage{amsmath}
@@ -17,7 +17,8 @@
 
 \section{常识}
 
-正交阵 $A^{T}A=AA^{T}=E$, $A^{-1}=A^{T}$
+正交阵 $A^{T}A=AA^{T}=E$, $A^{-1}=A^{T} , |A|^2 =1$
+
 
 实对称 $A^{T}=A$
 
@@ -36,6 +37,15 @@ n$\geq$2时，n！是偶数
 $(A^{*})^{*}=|A|^{n-2}A$
 
 $A+A^{T}$是对称矩阵，$A-A^{T}$是反对称矩阵
+
+已知$a_{ij}=A_{ij} , \mbox{所以} A^* =A^T ,$
+
+特征量不能为零
+
+$r(A^TA)=r(A)$
+
+可逆矩阵首先是方阵
+
 
 \section{合同}
 
@@ -82,5 +92,79 @@ A_{n}
 A_{1}^{-1}
 \end{bmatrix}$
 
+$\begin{bmatrix}A & O\\
+O & B
+\end{bmatrix}^{-1}=\begin{bmatrix}A^{-1} & O\\
+O & B^{-1}
+\end{bmatrix}$
 
+$\begin{bmatrix}A & O\\
+O & B
+\end{bmatrix}^{n}=\begin{bmatrix}A^{n} & O\\
+O & B^{n}
+\end{bmatrix}$
+
+\section{初等变换}
+
+单位矩阵经过一次初等变换称初等矩阵
+
+初等矩阵都是可逆矩阵
+
+可逆矩阵可表示一系列初等矩阵的乘积
+
+\section{向量组等价}
+
+等价向量组，相互线性表出
+
+向量组和它的极大线性无关组是等价向量组 
+
+向量组$a_{1},a_{2},a_{3},\ldots,a_{s}$线性无关，$a_{1},a_{2},a_{3},\ldots,a_{s},b$相关，b可由a1,a2,a3…as线性表出，表法唯一 
+
+向量组线性无关，增加一维的廷伸向量组无关 
+
+廷伸向量组相关，原向量组相关
+
+含有零向量或成比例的向量组线性相关 
+
+\section{矩阵等价}
+
+存在可逆矩阵PQ使$PAQ=B$，则$A\cong B$
+
+两个同型矩阵等价的充分必要条件是秩相等
+
+\section{相似}
+
+\section{施密特正交化}
+
+$\beta_{1}=\alpha_{1}$
+
+$\beta_{2}=\alpha_{2}-\frac{(\alpha_{2},\beta_{1})}{(\beta_{1},\beta_{1})}\beta_{1}$
+
+$\beta_{n}=\alpha_{n}-\frac{(\alpha_{n},\beta_{n-1})}{(\beta_{n-1},\beta_{n-1})}\beta_{n-1}-\frac{(\alpha_{n},\beta_{n-2})}{(\beta_{n-2},\beta_{n-2})}\beta_{n-2}-\cdots-\frac{(\alpha_{n},\beta_{1})}{(\beta_{1},\beta_{1})}\beta_{1}$
+
+\section{迹}
+
+迹Tr 方阵对角线所有元素之和
+
+Tr(AB)=Tr(BA) , Tr(ABC)≠Tr(BAC)\_增加C不成立
+
+\section{秩}
+
+设A为m{*}n矩阵
+
+r(AB)$\leq$min\{r(A),r(B)\}
+
+AB=O r(A)+r(B)$\leq$n
+
+$r(A)+r(B)\leq r\begin{pmatrix}A & O\\
+C & B
+\end{pmatrix}\leq r(A)+r(B)+r(C)$
+
+r(A+B)<=r(A|B)<=r(A)+r(B)
+
+r(A)<n-1,则|A|的全部代数余子式都为0
+
+$|A*|=|A|^{n-1}$
+
+r(A)=r 个 独立未知量 , n-r 个 自由未知量,解向量 
 \end{document}

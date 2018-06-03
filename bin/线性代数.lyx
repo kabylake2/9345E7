@@ -1,0 +1,452 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass ctex-article
+\begin_preamble
+% 如果没有这一句命令，XeTeX会出错，原因参见
+% http://bbs.ctex.org/viewthread.php?tid=60547
+\DeclareRobustCommand\nobreakspace{\leavevmode\nobreak\ }
+\end_preamble
+\options UTF8
+\use_default_options true
+\maintain_unincluded_children false
+\language chinese-simplified
+\language_package none
+\inputencoding utf8-plain
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format pdf4
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+常识
+\end_layout
+
+\begin_layout Standard
+正交阵 
+\begin_inset Formula $A^{T}A=AA^{T}=E$
+\end_inset
+
+, 
+\begin_inset Formula $A^{-1}=A^{T}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+实对称 
+\begin_inset Formula $A^{T}=A$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+反对称 
+\begin_inset Formula $A^{T}=-A$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A为实矩阵，若
+\begin_inset Formula $A^{T}A=0\text{则}$
+\end_inset
+
+
+\begin_inset Formula $a_{i}=0,A=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+正交向量内积为0
+\end_layout
+
+\begin_layout Standard
+n阶行列式全部展开式总共n！项，每行取自不同行不同列的乘积
+\end_layout
+
+\begin_layout Standard
+n
+\begin_inset Formula $\geq$
+\end_inset
+
+2时，n！是偶数
+\end_layout
+
+\begin_layout Standard
+逆对角线正负号
+\begin_inset Formula $(-1)^{\frac{n(n-1)}{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $(A^{*})^{*}=|A|^{n-2}A$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A+A^{T}$
+\end_inset
+
+是对称矩阵，
+\begin_inset Formula $A-A^{T}$
+\end_inset
+
+是反对称矩阵
+\end_layout
+
+\begin_layout Section
+合同
+\end_layout
+
+\begin_layout Standard
+定义 C可逆，
+\begin_inset Formula $B=C^{T}AC$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+标准型 只有平方项
+\end_layout
+
+\begin_layout Standard
+规范型 只有 0 1 -1 
+\end_layout
+
+\begin_layout Section
+范德蒙行列式
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\begin{vmatrix}1 & 1 & \cdots & 1\\
+x_{1} & x_{2} & \cdots & x_{3}\\
+\vdots & \vdots & \vdots & \vdots\\
+x_{1}^{n-1} & x_{2}^{n-2} & \vdots & x_{3}^{n-1}
+\end{vmatrix}=\prod_{1\leq i<j\leq n}(x_{j}-s_{i})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+拉普拉斯展开式
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\begin{vmatrix}O & A_{n\times n}\\
+B_{m\times m} & O
+\end{vmatrix}$
+\end_inset
+
+=
+\begin_inset Formula $\begin{vmatrix}C & A\\
+B & O
+\end{vmatrix}=\begin{vmatrix}O & A\\
+B & C
+\end{vmatrix}$
+\end_inset
+
+=
+\begin_inset Formula $(-1)^{mn}|A||B|$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\begin{array}{|cc|}
+A_{mm} & O\\
+O & B_{nn}
+\end{array}$
+\end_inset
+
+=
+\begin_inset Formula $\begin{vmatrix}A & C\\
+O & B
+\end{vmatrix}=\begin{vmatrix}A & O\\
+C & B
+\end{vmatrix}=|A||B|$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A=
+\begin_inset Formula $\begin{bmatrix} &  &  & A_{1}\\
+ &  & A_{2}\\
+ & \iddots\\
+A_{n}
+\end{bmatrix}$
+\end_inset
+
+,
+\begin_inset Formula $A^{-1}=\begin{bmatrix} &  &  & A_{n}^{-1}\\
+ &  & \iddots\\
+ & A_{2}^{-1}\\
+A_{1}^{-1}
+\end{bmatrix}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\begin{bmatrix}A & O\\
+O & B
+\end{bmatrix}^{-1}=\begin{bmatrix}A^{-1} & O\\
+O & B^{-1}
+\end{bmatrix}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\begin{bmatrix}A & O\\
+O & B
+\end{bmatrix}^{n}=\begin{bmatrix}A^{n} & O\\
+O & B^{n}
+\end{bmatrix}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+初等变换
+\end_layout
+
+\begin_layout Standard
+单位矩阵经过一次初等变换称初等矩阵
+\end_layout
+
+\begin_layout Standard
+初等矩阵都是可逆矩阵
+\end_layout
+
+\begin_layout Standard
+可逆矩阵可表示一系列初等矩阵的乘积
+\end_layout
+
+\begin_layout Section
+向量组等价
+\end_layout
+
+\begin_layout Standard
+等价向量组，相互线性表出
+\end_layout
+
+\begin_layout Standard
+向量组和它的极大线性无关组是等价向量组 
+\end_layout
+
+\begin_layout Standard
+向量组
+\begin_inset Formula $a_{1},a_{2},a_{3},\ldots,a_{s}$
+\end_inset
+
+线性无关，
+\begin_inset Formula $a_{1},a_{2},a_{3},\ldots,a_{s},b$
+\end_inset
+
+相关，b可由a1,a2,a3…as线性表出，表法唯一 
+\end_layout
+
+\begin_layout Standard
+向量组线性无关，增加一维的廷伸向量组无关 
+\end_layout
+
+\begin_layout Standard
+廷伸向量组相关，原向量组相关
+\end_layout
+
+\begin_layout Standard
+含有零向量或成比例的向量组线性相关 
+\end_layout
+
+\begin_layout Section
+矩阵等价
+\end_layout
+
+\begin_layout Standard
+存在可逆矩阵PQ使
+\begin_inset Formula $PAQ=B$
+\end_inset
+
+，则
+\begin_inset Formula $A\cong B$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+两个同型矩阵等价的充分必要条件是秩相等
+\end_layout
+
+\begin_layout Section
+相似
+\end_layout
+
+\begin_layout Section
+施密特正交化
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\beta_{1}=\alpha_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\beta_{2}=\alpha_{2}-\frac{(\alpha_{2},\beta_{1})}{(\beta_{1},\beta_{1})}\beta_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\beta_{n}=\alpha_{n}-\frac{(\alpha_{n},\beta_{n-1})}{(\beta_{n-1},\beta_{n-1})}\beta_{n-1}-\frac{(\alpha_{n},\beta_{n-2})}{(\beta_{n-2},\beta_{n-2})}\beta_{n-2}-\cdots-\frac{(\alpha_{n},\beta_{1})}{(\beta_{1},\beta_{1})}\beta_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+迹
+\end_layout
+
+\begin_layout Standard
+迹Tr 方阵对角线所有元素之和
+\end_layout
+
+\begin_layout Standard
+Tr(AB)=Tr(BA) , Tr(ABC)≠Tr(BAC)_增加C不成立
+\end_layout
+
+\begin_layout Section
+秩
+\end_layout
+
+\begin_layout Standard
+设A为m*n矩阵
+\end_layout
+
+\begin_layout Standard
+r(AB)
+\begin_inset Formula $\leq$
+\end_inset
+
+min{r(A),r(B)}
+\end_layout
+
+\begin_layout Standard
+AB=O r(A)+r(B)
+\begin_inset Formula $\leq$
+\end_inset
+
+n
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $r(A)+r(B)\leq r\begin{pmatrix}A & O\\
+C & B
+\end{pmatrix}\leq r(A)+r(B)+r(C)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+r(A+B)<=r(A|B)<=r(A)+r(B)
+\end_layout
+
+\begin_layout Standard
+r(A)<n-1,则|A|的全部代数余子式都为0
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $|A*|=|A|^{n-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+r(A)=r 个 独立未知量 , n-r 个 自由未知量,解向量 
+\end_layout
+
+\end_body
+\end_document
