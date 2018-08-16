@@ -1,7 +1,7 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6700) (preloaded format=xelatex 2018.6.3)  7 AUG 2018 13:07
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6700) (preloaded format=xelatex 2018.6.3)  14 AUG 2018 21:53
 entering extended mode
-**./3-概率论.tex
-(3-概率论.tex
+**D:/github/9345E7/3-概率论.tex
+(D:/github/9345E7/3-概率论.tex
 LaTeX2e <2018-04-01> patch level 5
 Babel <3.20> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Users\123\AppData\Local\MiKTeX 2.9\tex\latex\ctex\ctexart.cls"
@@ -1248,25 +1248,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--23
 
  []
 
+File: 9345E7/IMG_20180718_173538.jpg Graphic file (type bmp)
+<9345E7/IMG_20180718_173538.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--28
-
- []
-
-
-Overfull \hbox (4.65141pt too wide) in paragraph at lines 35--47
-[]$\OML/cmm/m/it/10.53937 f\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 x; y\O
-T1/cmr/m/n/10.53937 ) = []\OML/cmm/m/it/10.53937 exp []$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
-
+Overfull \hbox (53.33858pt too wide) in paragraph at lines 25--26
+[][] 
  []
 
 [1
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 27--30
+
+ []
+
+
+Overfull \hbox (4.65141pt too wide) in paragraph at lines 37--49
+[]$\OML/cmm/m/it/10.53937 f\OT1/cmr/m/n/10.53937 (\OML/cmm/m/it/10.53937 x; y\O
+T1/cmr/m/n/10.53937 ) = []\OML/cmm/m/it/10.53937 exp []$ 
+ []
+
+LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <10.53937> not avail
+able
+(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 
+49.
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
 File: 9345E7/danzhengtai.jpg Graphic file (type bmp)
 <9345E7/danzhengtai.jpg>
 File: 9345E7/shuangzhengtai.jpg Graphic file (type bmp)
@@ -1276,42 +1286,46 @@ File: 9345E7/xinqin.jpg Graphic file (type bmp)
 File: 9345E7/zhongxinjixian.jpg Graphic file (type bmp)
 <9345E7/zhongxinjixian.jpg>
 
-Overfull \hbox (81.79134pt too wide) in paragraph at lines 81--85
+Overfull \hbox (81.79134pt too wide) in paragraph at lines 84--88
 [][]
  []
 
 
-Overfull \hbox (81.79134pt too wide) in paragraph at lines 81--85
+Overfull \hbox (81.79134pt too wide) in paragraph at lines 84--88
 []
  []
 
 
-Overfull \hbox (81.79134pt too wide) in paragraph at lines 81--85
+Overfull \hbox (81.79134pt too wide) in paragraph at lines 84--88
 []
  []
 
 
-Overfull \hbox (81.79134pt too wide) in paragraph at lines 81--85
+Overfull \hbox (81.79134pt too wide) in paragraph at lines 84--88
 [] 
  []
 
-LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <10.53937> not avail
-able
-(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 
-85.
-[2] [3] [4] (3-概率论.aux)
+[3] [4]
+File: 9345E7/IMG_20180718_173505.jpg Graphic file (type bmp)
+<9345E7/IMG_20180718_173505.jpg>
+
+Overfull \hbox (53.33858pt too wide) in paragraph at lines 90--91
+[][] 
+ []
+
+[5] (3-概率论.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 16121 strings out of 427799
- 361898 string characters out of 3149923
- 436772 words of memory out of 3000000
- 20005 multiletter control sequences out of 15000+200000
+ 16130 strings out of 427799
+ 362199 string characters out of 3149923
+ 435772 words of memory out of 3000000
+ 20011 multiletter control sequences out of 15000+200000
  552175 words of font info for 51 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 52i,6n,69p,372b,397s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 52i,6n,69p,387b,397s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on 3-概率论.pdf (4 pages).
+Output written on 3-概率论.pdf (5 pages).

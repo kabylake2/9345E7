@@ -1,7 +1,7 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6700) (preloaded format=xelatex 2018.6.3)  18 JUL 2018 10:45
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6700) (preloaded format=xelatex 2018.6.3)  14 AUG 2018 22:19
 entering extended mode
-**./1-AdvancedMathematics_9345E7.tex
-(1-AdvancedMathematics_9345E7.tex
+**D:/github/9345E7/1-AdvancedMathematics_9345E7.tex
+(D:/github/9345E7/1-AdvancedMathematics_9345E7.tex
 LaTeX2e <2018-04-01> patch level 5
 Babel <3.20> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Users\123\AppData\Local\MiKTeX 2.9\tex\latex\ctex\ctexart.cls"
@@ -1243,23 +1243,22 @@ able
 
 ]
 Missing character: There is no α in font cmmi5!
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
 
  []
 
-[2]
 File: 9345E7/9476215E0863B8FB681EC9D2BB921BDB.jpg Graphic file (type bmp)
 <9345E7/9476215E0863B8FB681EC9D2BB921BDB.jpg>
 File: 9345E7/4FEE9C843E57935F87D1E16F255FA43E.jpg Graphic file (type bmp)
 <9345E7/4FEE9C843E57935F87D1E16F255FA43E.jpg>
 
-Overfull \hbox (53.33858pt too wide) in paragraph at lines 68--70
+Overfull \hbox (53.33858pt too wide) in paragraph at lines 71--73
 [][]
  []
 
 
-Overfull \hbox (53.33858pt too wide) in paragraph at lines 68--70
+Overfull \hbox (53.33858pt too wide) in paragraph at lines 71--73
 [] 
  []
 
@@ -1268,7 +1267,7 @@ Overfull \vbox (122.4716pt too high) has occurred while \output is active []
 
 
 [4]
-Overfull \hbox (15.49403pt too wide) detected at line 73
+Overfull \hbox (15.49403pt too wide) detected at line 76
 \OT1/cmr/m/n/10.53937 = [] [][]  = [] [] []\OML/cmm/m/it/10.53937 dt[]  \OT1/cm
 r/m/n/10.53937 = [] + [] [] \OMS/cmsy/m/n/10.53937 j [] \OML/cmm/m/it/10.53937 
 t \OT1/cmr/m/n/10.53937 + [] \OML/cmm/m/it/10.53937 t\OMS/cmsy/m/n/10.53937 j \
@@ -1278,7 +1277,7 @@ OT1/cmr/m/n/10.53937 + \OML/cmm/m/it/10.53937 C
 File: 9345E7/F04F85A8EB6EABFF18D6BE71383F2472.jpg Graphic file (type bmp)
 <9345E7/F04F85A8EB6EABFF18D6BE71383F2472.jpg>
 
-Overfull \hbox (53.33858pt too wide) in paragraph at lines 90--93
+Overfull \hbox (53.33858pt too wide) in paragraph at lines 93--96
 [] 
  []
 
@@ -1286,7 +1285,7 @@ Overfull \hbox (53.33858pt too wide) in paragraph at lines 90--93
 File: 9345E7/2A793F093B002F668B144F9ED087EB77.jpg Graphic file (type bmp)
 <9345E7/2A793F093B002F668B144F9ED087EB77.jpg>
 
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 100--101
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 107--108
 [][] 
  []
 
@@ -1294,7 +1293,7 @@ Overfull \hbox (24.88582pt too wide) in paragraph at lines 100--101
 Missing character: There is no θ in font cmmi10!
 Missing character: There is no α in font cmmi7!
  [7]
-Overfull \hbox (17.79765pt too wide) detected at line 122
+Overfull \hbox (17.79765pt too wide) detected at line 130
 []\OML/cmm/m/it/10.53937 p > \OT1/cmr/m/n/10.53937 1\OML/cmm/m/it/10.53937 ; []
  \OT1/cmr/m/n/10.53937 + [] = 1[] [] \OMS/cmsy/m/n/10.53937 ^^T [][] ^^A [][]
  []
@@ -1304,24 +1303,24 @@ Missing character: There is no ′ in font [lmroman7-regular]:mapping=tex-text;!
 Missing character: There is no ≠ in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ⇒ in font [lmroman10-regular]:mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--131
+Underfull \hbox (badness 10000) in paragraph at lines 133--139
 
  []
 
 File: 9345E7/2002379869.jpg Graphic file (type bmp)
 <9345E7/2002379869.jpg>
 
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 140--141
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 148--149
 [][] 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 151--157
+Underfull \hbox (badness 10000) in paragraph at lines 159--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--161
+Underfull \hbox (badness 10000) in paragraph at lines 167--169
 
  []
 
@@ -1329,7 +1328,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 159--161
 File: 9345E7/2805530637.jpg Graphic file (type bmp)
 <9345E7/2805530637.jpg>
 
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 166--167
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 174--175
 [][] 
  []
 
@@ -1338,14 +1337,14 @@ Missing character: There is no λ in font cmmi10!
 Missing character: There is no λ in font cmmi10!
 Missing character: There is no λ in font cmmi10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--171
+Underfull \hbox (badness 10000) in paragraph at lines 177--179
 
  []
 
 File: 9345E7/2367085874.jpg Graphic file (type bmp)
 <9345E7/2367085874.jpg>
 
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 173--174
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 181--182
 [][] 
  []
 
@@ -1363,7 +1362,7 @@ Missing character: There is no θ in font cmmi10!
 File: 9345E7/3720754172.jpg Graphic file (type bmp)
 <9345E7/3720754172.jpg>
 
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 185--186
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 193--194
 [][] 
  []
 
@@ -1371,14 +1370,14 @@ Overfull \hbox (24.88582pt too wide) in paragraph at lines 185--186
 File: 9345E7/2059466188.jpg Graphic file (type bmp)
 <9345E7/2059466188.jpg>
 
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 187--192
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 195--200
 [] 
  []
 
 File: 9345E7/677562795.jpg Graphic file (type bmp)
 <9345E7/677562795.jpg>
 
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 194--195
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 202--203
 [][] 
  []
 
@@ -1390,7 +1389,7 @@ File: 9345E7/595734581.jpg Graphic file (type bmp)
 File: 9345E7/601054614.jpg Graphic file (type bmp)
 <9345E7/601054614.jpg>
 
-Overfull \hbox (171.86948pt too wide) in paragraph at lines 197--201
+Overfull \hbox (171.86948pt too wide) in paragraph at lines 205--209
 []\TU/SimSun(0)/m/n/10.53937 当 $\OML/cmm/m/it/10.53937 u \OT1/cmr/m/n/10.53937 
 = [] \OMS/cmsy/m/n/10.53937 ) \OML/cmm/m/it/10.53937 y \OT1/cmr/m/n/10.53937 = 
 \OML/cmm/m/it/10.53937 ux[] \OT1/cmr/m/n/10.53937 = \OML/cmm/m/it/10.53937 u \O
@@ -1398,12 +1397,12 @@ T1/cmr/m/n/10.53937 + \OML/cmm/m/it/10.53937 x[]$ []
  []
 
 
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 197--201
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 205--209
 []
  []
 
 
-Overfull \hbox (24.88582pt too wide) in paragraph at lines 197--201
+Overfull \hbox (24.88582pt too wide) in paragraph at lines 205--209
 [] 
  []
 
@@ -1414,12 +1413,12 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 16100 strings out of 427799
- 363317 string characters out of 3149923
+ 16101 strings out of 427799
+ 363366 string characters out of 3149923
  436818 words of memory out of 3000000
  19985 multiletter control sequences out of 15000+200000
  534166 words of font info for 47 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 52i,8n,69p,391b,397s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 52i,8n,69p,406b,397s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on 1-AdvancedMathematics_9345E7.pdf (15 pages).

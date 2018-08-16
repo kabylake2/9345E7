@@ -39,17 +39,20 @@ $$(x^x)'=x^x(1+ \ln x)$$
 \section{极限比较}
 $$ f(x) \geq g(x) \rightarrow \lim f(x) \geq \lim g(x) $$
 $$ \lim f(x) > \lim g(x) \rightarrow f(x) > g(x) $$
-\section{敛散}
+\section{函数敛散}
 $ \lim_{x \rightarrow 1} \frac{1}{(x-1)^{α+1}}=
   \begin{cases}
   &0 , (a<-1) \\
   &1 , (a=-1) \\
   &\infty ,(a>-1)
 \end{cases}$ \\
-正项级数 Un收敛 $Un^2$收敛
-
+正项级数 Un收敛 $Un^2$收敛 \\
+若$\sum_{n=1}^\infty {u_n}^2 $收敛，$\sum_{n=1}^\infty \frac{u_n}{n} $ 绝对收敛
+（$\left\vert \frac{u_n}{n} \right\vert \leq  \frac{1}{2} (u_n^2 + \frac{1}{n^2})$）
 $$ \frac{\partial f}{\partial x} \equiv \frac{\partial f}{\partial y} \equiv 0\ \leftrightarrow df({x,y}) \equiv 0 $$
 
+\section{敛散比较}
+$\lim_{n \rightarrow \infty} \frac{\ln\frac{1}{u_n}}{\ln n }=p$
 \section{基本函数求导公式}
 $ (a^x)'=a^x \ln a \\
   ( \log _a x)'=\frac{1}{x \ln a} $
@@ -96,6 +99,10 @@ $$ \arcsin x=x+\frac{x^3}{3!}+o(x^3)$$
 $$ \tan x=x+\frac{x^3}{3}+o(x^3)$$
 $$ \arctan x=x-\frac{x^3}{3}+o(x^3)$$
 
+\section{级数求和}
+$\sum_{n=1}^\infty \frac{x^n}{n} =- \ln (1-x) , x \in [-1,1)$ \\
+$\sum_{n=1}^\infty nx^{n-1} = \frac{1}{{(1-x)}^2} , x \in (-1,1)$
+
 \section{几个初等函数的n阶导数公式}
 \includegraphics[width=13cm]{9345E7/2A793F093B002F668B144F9ED087EB77.jpg}
 
@@ -115,7 +122,8 @@ $$ e^{αx} \gg x^b \gg \ln^y x $$
 $$ 2\left| ab \right| \leq a^2+b^2$$
 $$ \left| a \pm b \right| \leq |a|+|b|$$
 $$ \left| |a| - |b| \right| \leq |a-b|$$
-$$\sqrt{ab} \leq \frac{a+b}{2} \leq \sqrt{\frac{a^2+b^2}{2}}$$
+$$\frac{2}{\frac{1}{a} + \frac{1}{b}} \leq 
+\sqrt{ab} \leq \frac{a+b}{2} \leq \sqrt{\frac{a^2+b^2}{2}}$$
 当 x>0,y>0,p>0,q>0,$\frac{1}{p}+\frac{1}{q}=1 \rightarrow xy \leq \frac{x^p}{p}+\frac{y^q}{q}$
 $$(a^2+b^2)(c^2+d^2) \geq (ac+bd)^2$$
 $$ [\int_a^b f(x)g(x)dx]^2 \leq \int_a^b f^2(x)dx\cdot \int_a^b g^2(x)dx$$
