@@ -133,6 +133,14 @@ O & B^{n}
 
 \section{相似}
 
+A相似B $\rightarrow$  r(A)=r(B),|A|=|B|,特征多项式/特征值相同 \\
+对称矩阵的两个特征值对应的特征向量正交 \\
+A是n阶对称矩阵,必有正交矩阵P,使$P^{-1}AP=P^TAP=\varLambda$ \\
+$\lambda$是A的特征方程的k重根,則矩阵A-$\lambda$E的秩R=n-k,对应特征方程有k个线性无关特征向量 \\
+A、B均是实对称矩阵，A、B相似的充分必要条件是A、B有相同的特征值 \\
+可相似对角化，  有不同的特征值 \\
+
+
 \section{施密特正交化}
 
 $\beta_{1}=\alpha_{1}$
@@ -161,11 +169,53 @@ C & B
 
 r(A+B)<=r(A|B)<=r(A)+r(B)
 
-r(A)<n-1,则|A|的全部代数余子式都为0
-
+r(A)<n-1,则|A|的全部代数余子式都为0 \\
+r(A)=n-1 , |A|=0 \\
 $|A*|=|A|^{n-1}$
 
 r(A)=r 个 独立未知量 , n-r 个 自由未知量,解向量
+
+\section{正定}
+A实对称 ，
+\begin{enumerate}
+  \item 必相似于对角阵，且存在正交阵Q，$Q^{-1}AQ=Q^TAQ$=对角阵
+  \item A特征值为实数，特征向量为实向量
+  \item 属于不同特征值的特征向量正交
+\end{enumerate}
+
+  A正定时，$kA，A^T , A^k , A^{-1} , A^* , f(A)\mbox{系数大于零} $都正定 \\
+
+  A正定$\rightarrow$A实对称 \\
+ $A^*$正定$\rightarrow$A正定  反之不成立 \\
+任给二次型f ,总有正交变换X=Py,使f化标准型,若$A^T=A$,存在可逆变换×=Cz使f为标准型 \\
+
+配方法
+$\begin{cases}
+  x_1=y_1+y_2 \\
+  x_2=y_1-y_2 \\
+  X_3=y_3
+\end{cases}$
+
+A正定充要
+\begin{enumerate}
+  \item 对任意$x\neq 0$有 $x^T A x > 0$
+  \item 正惯性 = n
+  \item 存在可逆矩阵D 使$D^TD$
+  \item $A\simeq E$
+  \item 特值全大于零
+  \item 顺序主子式全大于零
+\end{enumerate}
+
+A正定必要
+\begin{enumerate}
+  \item $a_{ij} >0 $
+  \item |A| > 0
+\end{enumerate}
+
+\section{合同}
+合同不改变正负惯性指数 \\
+合同的充要条件 有相同的正负惯性指数 \\
+A B 合同 则 r(A)=r(B) ,|A| |B| 同号 \\
 \section{???}
 $XTAX=0 \rightarrow A^T=-A$
 
