@@ -87,7 +87,8 @@ $$ \int \frac{dx}{a^2+x^2}=\frac{1}{a} \arctan \frac{x}{a} +C $$
 $$ \int \frac{dx}{x^2-a^2}=\frac{1}{2a} \ln \left| \frac{x-a}{x+a} \right| +C$$
 $$ \int \frac{dx}{\sqrt{a^2-x^2}}=\arcsin \frac{x}{a}+C$$
 $$ \int \frac {dx}{\sqrt{x^2+a^2}}=\ln {(x+ \sqrt{x^2+a^2})}+C$$
-$$ \int \frac{dx}{\sqrt{x^2-a^2}}= \ln | x+\sqrt{x^2-a^2}|+C$$
+$$ \int \frac{dx}{\sqrt{x^2-a^2}}= \ln | x+\sqrt{x^2-a^2}|+C$$ \\
+$\int \frac{dx}{{(1+x^2)}^\frac{3}{2}}=\frac{x}{\sqrt{1+x^2}} +C $ \\
 
 \section{泰勒公式}
 $ e^{1+x}=e+ex+e \frac{x^2}{2!} + e \frac{x^3}{3!}+e\frac{x^4}{4!}$ \\
@@ -99,20 +100,10 @@ $$ \arcsin x=x+\frac{x^3}{3!}+o(x^3)$$
 $$ \tan x=x+\frac{x^3}{3}+o(x^3)$$
 $$ \arctan x=x-\frac{x^3}{3}+o(x^3)$$
 
-\section{级数求和}
-$\sum_{n=1}^\infty \frac{x^n}{n} =- \ln (1-x) , x \in [-1,1)$ \\
-$\sum_{n=1}^\infty nx^{n-1} = \frac{1}{{(1-x)}^2} , x \in (-1,1)$
-
 \section{几个初等函数的n阶导数公式}
 \includegraphics[width=13cm]{9345E7/2A793F093B002F668B144F9ED087EB77.jpg}
 
 
-$$ \int_0^\frac{\pi}{2} sin^n θ d \theta =\int_0^\frac{\pi}{2} \cos^n \theta d \theta =
-\begin{cases}
-  &\frac{n-1}{n}\cdot\frac{n-3}{n-2} \cdots \frac{3}{4}\cdot\frac{1}{2}\cdot\frac{\pi}{2}\mbox{  n为正偶数} \\
-  &\frac{n-1}{n}\cdot\frac{n-3}{n-2}\cdots\frac{4}{5}\cdot\frac{2}{3}\mbox{  n为大于1的正奇数}
-\end{cases}
-$$
 
 \section{经典不等式}
 $$e^x \geq x+1 ; x-1 \geq \ln x ; \frac{1}{1+x} < \ln \left( 1+ \frac{1}{x} \right) < \frac{1}{x}$$
@@ -122,7 +113,7 @@ $$ e^{αx} \gg x^b \gg \ln^y x $$
 $$ 2\left| ab \right| \leq a^2+b^2$$
 $$ \left| a \pm b \right| \leq |a|+|b|$$
 $$ \left| |a| - |b| \right| \leq |a-b|$$
-$$\frac{2}{\frac{1}{a} + \frac{1}{b}} \leq 
+$$\frac{2}{\frac{1}{a} + \frac{1}{b}} \leq
 \sqrt{ab} \leq \frac{a+b}{2} \leq \sqrt{\frac{a^2+b^2}{2}}$$
 当 x>0,y>0,p>0,q>0,$\frac{1}{p}+\frac{1}{q}=1 \rightarrow xy \leq \frac{x^p}{p}+\frac{y^q}{q}$
 $$(a^2+b^2)(c^2+d^2) \geq (ac+bd)^2$$
@@ -144,6 +135,14 @@ $$ \int_\frac{\pi}{4}^\frac{\pi}{2} \sin x dx =\frac{\sqrt{2}}{2}$$
 $$ \int_0^\frac{\pi}{2} \sin x dx = 1$$
 $$ \int_0^\pi \sin x dx =2$$
 
+$$ \int_0^\frac{\pi}{2} sin^n θ d \theta =\int_0^\frac{\pi}{2} \cos^n \theta d \theta =
+\begin{cases}
+  &\frac{n-1}{n}\cdot\frac{n-3}{n-2} \cdots \frac{3}{4}\cdot\frac{1}{2}\cdot\frac{\pi}{2}\mbox{  n为正偶数} \\
+  &\frac{n-1}{n}\cdot\frac{n-3}{n-2}\cdots\frac{4}{5}\cdot\frac{2}{3}\mbox{  n为大于1的正奇数}
+\end{cases}
+$$
+$\int_0^\frac{\pi}{2} f(\sin x) dx = \int_0^\frac{\pi}{2} f(\cos x) dx$ \\
+$\int_0^\pi x f(\sin x) dx = \frac{\pi}{2} \int_0^\pi f(\sin x)dx$
 \section{积分递归解法}
 \includegraphics[width=13cm]{9345E7/2002379869.jpg}
 
@@ -191,12 +190,6 @@ L=$ \int_α^β \sqrt{r^2(θ)+[r'(θ)]^2}dθ$
 
 \section{极座标交换积分次续}
 \includegraphics[width=13cm]{9345E7/3720754172.jpg}
-\section{反常积分审敛}
-$\sum \frac{1}{n^p}  \\
-p >1 \mbox{绝} \\
-0<p\leq1 \mbox{条} \\
-p \leq 0 \mbox{散} $ \\
-\includegraphics[width=13cm]{9345E7/2059466188.jpg}
 
 \section{一阶微分方程}
 \includegraphics[width=13cm]{9345E7/677562795.jpg}
@@ -207,13 +200,5 @@ p \leq 0 \mbox{散} $ \\
 \includegraphics[width=13cm]{9345E7/595734581.jpg}
 \includegraphics[width=13cm]{9345E7/601054614.jpg}
 
-\section{傅里叶级数}
-$f(x) \sim S(x) = \frac{a_0}{2} + \sum_{n=1}^\infty (a_n \cos{\frac{n  \pi x}{l}
- + b_n \sin \frac{n\pi x}{l}  })$
-
-$\begin{cases}
-a_n=\frac{1}{l} \int_{-l}^l f(x) \cos \frac{n \pi x}{l} dx (n=0,1,2, \ldots) \\
-b_n=\frac{1}{l} \int_{-l}{l} f(x) \sin \frac{n \pi x}{l} dx (n=1,2,3,\ldots)
-\end{cases}$
 
 \end{document}

@@ -40,6 +40,42 @@ l_2 & m_2 & n_2
 \end{Vmatrix}}
 $
 
+\section{平面曲线积分与路径无关}
+\subsection{第一组}
+D是平面有界闭区域 ，PQ在D上连续
+\begin{enumerate}
+  \item 沿任意一条全在D内的分段光滑闭曲线L，有$\ointop P dx + Q dy =0$
+  \item $\int_L Pdx+Qdy $ 在D内与路径无关，只与l的起点和终点有关
+  \item 在D内存在可微的单值函数u（x,y),使Pdx+Qdy是u（x,y）的全微分，即du=Pdx+Qdy
+  \item 矢量函数$V=P(x,y)\mathit{i}+Q(x,y)\mathit{j}$ 为某单值函数u(x,y)的梯度，即 $\mathbf{grad}u=V=P(x,y)\mathit{i}+Q(x,y)\mathit{j}$
+  \item Pdx+Qdy=0 为全微分方程
+\end{enumerate}
+\subsection{第二组}
+D是平面单连通区域，P（x,y) Q(x,y)在D上连续且具有一阶连续偏导数
+\begin{enumerate}
+  \item $\frac{\partial P}{\partial y}=\frac{\partial Q}{\partial x}$ 在D内处处成立
+  \item 沿D中任意分段光滑闭曲线L有$\int_L Pdx+Qdy=0 $
+  \item $\int_L Pdx+Qdy $ 在D内与路径无关，只与l的起点和终点有关
+  \item 在D内存在可微的单值函数u（x,y),使Pdx+Qdy是u（x,y）的全微分，即du=Pdx+Qdy
+  \item 矢量函数$V=P(x,y)\mathit{i}+Q(x,y)\mathit{j}$ 为某单值函数u(x,y)的梯度，即 $\mathbf{grad}u=V=P(x,y)\mathit{i}+Q(x,y)\mathit{j}$
+  \item Pdx+Qdy=0 为全微分方程
+\end{enumerate}
+\subsection{第三组}
+D是平面有界区域，P（x,y) Q(x,y)在D上连续且具有一阶连续偏导数
+\begin{enumerate}
+  \item $\int_L Pdx+Qdy $ 在D内与路径无关，只与l的起点和终点有关
+  \item $\frac{\partial P}{\partial y}=\frac{\partial Q}{\partial x}$ 在D内处处成立
+\end{enumerate}
+\subsection{四}
+与路径无关$\longleftrightarrow$存在原函数
+
+\section{形心}
+$\bar{x}=\frac{\iint_D x \rho(x,y) d\sigma}{\iint_D \rho(x,y)d\sigma}$ \\
+\section{惯性矩}
+$I_x= \iiint_\Omega (y^2+z^2) \rho(x,y,z) dv$ \\
+$I_o =\iiint_\Omega (x^2+y^2+z^2) \rho(x,y,z) dv $
+\section{重力}
+$F_x=Gm \iint_D \frac{\rho(x,y)(x-x_0)}{{[{(x-x_0)}^2+{(y-y_0)}^2+{(z-z_0)}^2]}^\frac{3}{2}} d\sigma $
 \section{解题技巧}
 $\int_0^\pi xf(\sin x ) dx = \frac{\pi}{2} \int_0^\pi f(\sin x) dx$ \\
 $$ \int x^3 \sqrt{1+x^2} dx$$

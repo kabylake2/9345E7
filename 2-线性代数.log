@@ -1,15 +1,14 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6700) (preloaded format=xelatex 2018.6.3)  21 AUG 2018 19:30
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6800) (preloaded format=xelatex 2018.9.21)  21 SEP 2018 14:27
 entering extended mode
-**D:/github/9345E7/2-线性代数.tex
-(D:/github/9345E7/2-线性代数.tex
+**./2-线性代数.tex
+(2-线性代数.tex
 LaTeX2e <2018-04-01> patch level 5
-Babel <3.20> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Users\123\AppData\Local\MiKTeX 2.9\tex\latex\ctex\ctexart.cls"
 ("C:\Users\123\AppData\Local\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
-Package: expl3 2018-05-13 L3 programming layer (loader) 
+Package: expl3 2018-08-23 L3 programming layer (loader) 
 
 ("C:\Users\123\AppData\Local\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex"
-Package: expl3 2018-05-13 L3 programming layer (code)
+Package: expl3 2018-08-23 L3 programming layer (code)
 \c_max_int=\count80
 \l_tmpa_int=\count81
 \l_tmpb_int=\count82
@@ -151,13 +150,13 @@ Package: expl3 2018-05-13 L3 programming layer (code)
 \l__coffin_scaled_width_dim=\dimen133
 )
 ("C:\Users\123\AppData\Local\MiKTeX 2.9\tex\latex\l3kernel\l3xdvipdfmx.def"
-File: l3xdvidpfmx.def 2018-05-13 v L3 Experimental driver: xdvipdfmx
+File: l3xdvidpfmx.def 2018-08-23 v L3 Experimental driver: xdvipdfmx
 \g__driver_image_int=\count159
 ))
 Document Class: ctexart 2018/05/02 v2.4.14 Chinese adapter for class article (C
 TEX)
 ("C:\Users\123\AppData\Local\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
-Package: xparse 2018-05-12 L3 Experimental document command parser
+Package: xparse 2018-08-23 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count160
 \g__xparse_grabber_int=\count161
 \l__xparse_m_args_int=\count162
@@ -166,7 +165,7 @@ Package: xparse 2018-05-12 L3 Experimental document command parser
 )
 ("C:\Users\123\AppData\Local\MiKTeX 2.9\tex\latex\l3packages\l3keys2e\l3keys2e.
 sty"
-Package: l3keys2e 2018-05-12 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2018-08-23 LaTeX2e option processing using LaTeX3 keys
 ) ("C:\Users\123\AppData\Local\MiKTeX 2.9\tex\latex\ctex\ctexhook.sty"
 Package: ctexhook 2018/05/02 v2.4.14 Document and package hooks (CTEX)
 )
@@ -215,7 +214,7 @@ Package: xeCJK 2018/04/30 v3.7.1 Typesetting CJK scripts with XeLaTeX
 
 ("C:\Users\123\AppData\Local\MiKTeX 2.9\tex\latex\l3packages\xtemplate\xtemplat
 e.sty"
-Package: xtemplate 2018-05-12 L3 Experimental prototype document functions
+Package: xtemplate 2018-08-23 L3 Experimental prototype document functions
 \l__xtemplate_tmp_dim=\dimen136
 \l__xtemplate_tmp_int=\count175
 \l__xtemplate_tmp_muskip=\muskip16
@@ -442,10 +441,10 @@ Package: xtemplate 2018-05-12 L3 Experimental prototype document functions
 .................................................
 \l__xeCJK_verb_exspace_skip=\skip55
  ("C:\Users\123\AppData\Local\MiKTeX 2.9\tex\latex\fontspec\fontspec.sty"
-Package: fontspec 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTeX
+Package: fontspec 2018/07/30 vv2.6h Font selection for XeLaTeX and LuaLaTeX
  ("C:\Users\123\AppData\Local\MiKTeX 2.9\tex\latex\fontspec\fontspec-xetex.sty"
-Package: fontspec-xetex 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTe
-X
+Package: fontspec-xetex 2018/07/30 vv2.6h Font selection for XeLaTeX and LuaLaT
+eX
 \l__fontspec_script_int=\count187
 \l__fontspec_language_int=\count188
 \l__fontspec_strnum_int=\count189
@@ -467,191 +466,201 @@ LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \fontspec with sig. 'O{}mO{}' on line 542.
+. Defining command \fontspec with sig. 'O{}mO{}' on line 561.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmainfont with sig. 'O{}mO{}' on line 546.
+. Defining command \setmainfont with sig. 'O{}mO{}' on line 566.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setsansfont with sig. 'O{}mO{}' on line 550.
+. Defining command \setsansfont with sig. 'O{}mO{}' on line 571.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmonofont with sig. 'O{}mO{}' on line 554.
+. Defining command \setmonofont with sig. 'O{}mO{}' on line 576.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmathrm with sig. 'O{}mO{}' on line 558.
+. Defining command \setmathrm with sig. 'O{}mO{}' on line 580.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setboldmathrm with sig. 'O{}mO{}' on line 562.
+. Defining command \setboldmathrm with sig. 'O{}mO{}' on line 584.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmathsf with sig. 'O{}mO{}' on line 566.
+. Defining command \setmathsf with sig. 'O{}mO{}' on line 588.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setmathtt with sig. 'O{}mO{}' on line 570.
+. Defining command \setmathtt with sig. 'O{}mO{}' on line 592.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \setromanfont with sig. 'O{}mO{}' on line 574.
+. Defining command \setromanfont with sig. 'O{}mO{}' on line 596.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontfamily with sig. 'mO{}mO{}' on line 578.
+. Defining command \newfontfamily with sig. 'mO{}mO{}' on line 600.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontface with sig. 'mO{}mO{}' on line 582.
+. Defining command \renewfontfamily with sig. 'mO{}mO{}' on line 604.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \defaultfontfeatures with sig. 't+om' on line 586.
+. Defining command \setfontfamily with sig. 'mO{}mO{}' on line 608.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \addfontfeatures with sig. 'm' on line 590.
+. Defining command \newfontface with sig. 'mO{}mO{}' on line 612.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \addfontfeature with sig. 'm' on line 594.
+. Defining command \defaultfontfeatures with sig. 't+om' on line 619.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontfeature with sig. 'mm' on line 598.
+. Defining command \addfontfeatures with sig. 'm' on line 623.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newAATfeature with sig. 'mmmm' on line 602.
+. Defining command \addfontfeature with sig. 'm' on line 627.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newopentypefeature with sig. 'mmm' on line 606.
+. Defining command \newfontfeature with sig. 'mm' on line 631.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newICUfeature with sig. 'mmm' on line 610.
+. Defining command \newAATfeature with sig. 'mmmm' on line 635.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \aliasfontfeature with sig. 'mm' on line 614.
+. Defining command \newopentypefeature with sig. 'mmm' on line 639.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 618.
+. Defining command \newICUfeature with sig. 'mmm' on line 643.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontscript with sig. 'mm' on line 622.
+. Defining command \aliasfontfeature with sig. 'mm' on line 647.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \newfontlanguage with sig. 'mm' on line 626.
+. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 651.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareFontsExtensions with sig. 'm' on line 630.
+. Defining command \newfontscript with sig. 'mm' on line 655.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \IfFontFeatureActiveTF with sig. 'mmm' on line 634.
+. Defining command \newfontlanguage with sig. 'mm' on line 659.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingCommand with sig. 'mO{}m' on line 3632.
+. Defining command \DeclareFontExtensions with sig. 'm' on line 663.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingAccent with sig. 'mm' on line 3638.
+. Defining command \IfFontFeatureActiveTF with sig. 'mmm' on line 667.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingSymbol with sig. 'mm' on line 3644.
+. Defining command \EncodingCommand with sig. 'mO{}m' on line 3655.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingComposite with sig. 'mmm' on line 3650.
+. Defining command \EncodingAccent with sig. 'mm' on line 3661.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \EncodingCompositeCommand with sig. 'mmm' on line 3656.
+. Defining command \EncodingSymbol with sig. 'mm' on line 3667.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \DeclareUnicodeEncoding with sig. 'mm' on line 3681.
+. Defining command \EncodingComposite with sig. 'mmm' on line 3673.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \UndeclareSymbol with sig. 'm' on line 3687.
+. Defining command \EncodingCompositeCommand with sig. 'mmm' on line 3679.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \UndeclareAccent with sig. 'm' on line 3693.
+. Defining command \DeclareUnicodeEncoding with sig. 'mm' on line 3704.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \UndeclareCommand with sig. 'm' on line 3699.
+. Defining command \UndeclareSymbol with sig. 'm' on line 3710.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \UndeclareComposite with sig. 'mm' on line 3706.
+. Defining command \UndeclareAccent with sig. 'm' on line 3716.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareCommand with sig. 'm' on line 3722.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareComposite with sig. 'mm' on line 3729.
 .................................................
 
 ("C:\Users\123\AppData\Local\MiKTeX 2.9\tex\latex\fontspec\fontspec.cfg")
-LaTeX Info: Redefining \itshape on input line 3891.
-LaTeX Info: Redefining \slshape on input line 3896.
-LaTeX Info: Redefining \scshape on input line 3901.
-LaTeX Info: Redefining \upshape on input line 3906.
-LaTeX Info: Redefining \em on input line 3936.
-LaTeX Info: Redefining \emph on input line 3961.
-LaTeX Info: Redefining \- on input line 4015.
+LaTeX Info: Redefining \itshape on input line 3910.
+LaTeX Info: Redefining \slshape on input line 3915.
+LaTeX Info: Redefining \scshape on input line 3920.
+LaTeX Info: Redefining \upshape on input line 3925.
+LaTeX Info: Redefining \em on input line 3955.
+LaTeX Info: Redefining \emph on input line 3980.
+LaTeX Info: Redefining \- on input line 4034.
 .................................................
 . LaTeX info: "xparse/redefine-command"
 . 
-. Redefining command \oldstylenums with sig. 'm' on line 4110.
+. Redefining command \oldstylenums with sig. 'm' on line 4129.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \liningnums with sig. 'm' on line 4114.
+. Defining command \liningnums with sig. 'm' on line 4133.
 .................................................
 ))
 .................................................
@@ -985,7 +994,6 @@ X)
 dowsnew.def"
 File: ctex-fontset-windowsnew.def 2018/05/02 v2.4.14 Windows fonts definition f
 or Vista or later version (CTEX)
-\g__fontspec_family_SimSun_int=\count198
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -1087,13 +1095,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ("C:\Users\123\AppData\Local\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count199
+\inf@bad=\count198
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count266
-\leftroot@=\count267
+\uproot@=\count199
+\leftroot@=\count266
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count268
-\DOTSCASE@=\count269
+\classnum@=\count267
+\DOTSCASE@=\count268
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -1102,15 +1110,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen178
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count270
-\c@MaxMatrixCols=\count271
+\macc@depth=\count269
+\c@MaxMatrixCols=\count270
 \dotsspace@=\muskip17
-\c@parentequation=\count272
-\dspbrk@lvl=\count273
+\c@parentequation=\count271
+\dspbrk@lvl=\count272
 \tag@help=\toks17
-\row@=\count274
-\column@=\count275
-\maxfields@=\count276
+\row@=\count273
+\column@=\count274
+\maxfields@=\count275
 \andhelp@=\toks18
 \eqnshift@=\dimen179
 \alignsep@=\dimen180
@@ -1146,7 +1154,8 @@ Package Mathdots Warning: Redefining amsmath commands \dddot and \ddddot.
 
 LaTeX Info: Redefining \dddot on input line 145.
 LaTeX Info: Redefining \ddddot on input line 145.
-) (2-线性代数.aux)
+)
+No file 2-线性代数.aux.
 \openout1 = `2-线性代数.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -1165,7 +1174,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
- ABD: EverySelectfont initializing macros
+ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 10.
 .................................................
 . fontspec info: "setup-math"
@@ -1241,11 +1250,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--23
 LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <10.53937> not avail
 able
 (Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 
-75.
+76.
 [1
 
 ] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 136--142
+Underfull \hbox (badness 10000) in paragraph at lines 137--143
 
  []
 
@@ -1253,28 +1262,28 @@ Missing character: There is no ≠ in font ec-lmr10!
 [3]
 Missing character: There is no ， in font [lmroman10-regular]:mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--187
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--191
+Underfull \hbox (badness 10000) in paragraph at lines 189--192
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 216--219
+Underfull \hbox (badness 10000) in paragraph at lines 217--220
 
  []
 
 [5] (2-线性代数.aux) ) 
 Here is how much of TeX's memory you used:
- 16045 strings out of 427799
- 361928 string characters out of 3149923
- 439774 words of memory out of 3000000
- 19932 multiletter control sequences out of 15000+200000
+ 16202 strings out of 427798
+ 365013 string characters out of 3149907
+ 441212 words of memory out of 3000000
+ 20092 multiletter control sequences out of 15000+200000
  553404 words of font info for 58 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 52i,13n,69p,388b,397s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 52i,13n,68p,373b,443s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on 2-线性代数.pdf (5 pages).
