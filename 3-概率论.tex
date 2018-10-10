@@ -20,6 +20,7 @@ $DS^2=\frac{2\sigma^4}{n-1}$ \\
 样本方差是$\sigma^2$的无偏估计量 \\
 二阶样本中心距$\frac{n-1}{n}S^2$是$\sigma^2$的最大似然估计量 \\
 $S^2$是$\sigma^2$的相合估计量 \\
+$\int_0^{ + \infty } e^{-t^2} dt =\frac{\sqrt{\pi}}{2}$
 
 \section{常用分布}
 \includegraphics[width=14cm]{9345E7/IMG_20180718_173538.jpg}
@@ -31,7 +32,8 @@ Cov(x,y)=E[(X-EX)(Y-EY)]=EXY-EX$\cdot$EY \\
 $\rho_{xy}=\frac{Cov(X,Y)}{\sqrt{DX}\sqrt{DY}}$
 
 \section{正态分布}
-X~N(0,1) E|X|=$\sqrt{\frac{2}{\pi}}$
+X~N(0,1) E|X|=$\sqrt{\frac{2}{\pi}}$ \\
+$X_1+X_2 \sim N(\mu,2 \sigma^2)$
 
 \section{二维正态分布}
 $f(x,y)=\frac{1}{2 \pi \sigma_1 \sigma_2 \sqrt {1- \rho ^2 }}exp
@@ -74,10 +76,17 @@ DX 存在
 $\epsilon>0
 \rightarrow P\{|X-EX|\geq \epsilon\}\leq\frac{DX}{\epsilon^2} ;
 P\{|X-EX|< \epsilon\}\geq1-\frac{DX}{\epsilon^2}$
+
 \section{估计量}
 $\sigma^2$的最大似然估计量$\frac{1}{n}
 \sum_{i=1}^n
 {(X_i - \bar{x})}^2$
+\subsection{无偏性} 
+$E(\hat{\theta})=\theta$ 
+\subsection{有效性}
+$D(\hat{\theta}_1)<D(\hat{\theta}_2)$,$\theta_1$比$\theta_2$有效
+\subsection{一致性}
+$\epsilon>0 ,\lim_{n \rightarrow \infty} \{| \hat{\theta} -\theta | \geq \epsilon \} =0$
 
 \section{数理统计}
 

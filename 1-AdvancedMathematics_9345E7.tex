@@ -10,19 +10,13 @@
 \section{常识}
 $\sqrt[3]{n+1}-\sqrt[3]{n}=\frac{1}{\sqrt[3]{{(n+1)}^2}+\sqrt[3]{n(n+1)}+\sqrt[3]{n^2}}$
 
-$\int_0^x\frac{1}{1+t^3}dt=\int_0^x\frac{1-t^2+t^2}{1+t^3}dt$
-
 $\ln n \ll n \ll n^k \ll a^n \ll n! \ll n^n$
 
 
 \section{数列敛散性}
-数列收敛于A,则任意子数列收剑于A   \\
 单调数列的某一子数列收敛于A,则该数列收敛于A \\
 数列{2n}与{2n+1}都收敛于A,则数列必收敛于A
 
-\section{连续的定义}
-$$ \lim_{x\rightarrow a}f(x)=A$$
-$$ \lim_{\Delta\rightarrow0}\Delta y=\lim_{\Delta x \rightarrow 0 } f(x+ \Delta x) - f(x)=0$$
 
 \section{常用等价无穷小}
  $ x \rightarrow 0$
@@ -39,6 +33,10 @@ $$(x^x)'=x^x(1+ \ln x)$$
 \section{极限比较}
 $$ f(x) \geq g(x) \rightarrow \lim f(x) \geq \lim g(x) $$
 $$ \lim f(x) > \lim g(x) \rightarrow f(x) > g(x) $$
+
+\section{反函数求导}
+$\frac{dy}{dx}=\frac{1}{\frac{dx}{dy}} , \frac{d^2y}{dx^2}=-\frac{\frac{d^2x}{dy^2}}{{(\frac{dx}{dy})}^3}$
+
 \section{函数敛散}
 $ \lim_{x \rightarrow 1} \frac{1}{(x-1)^{α+1}}=
   \begin{cases}
@@ -63,9 +61,6 @@ $$ S= 4 \pi R^2$$
 
 \section{定积分定义}
 $$ \int_a^b f(x)dx= \lim_{n \rightarrow \infty } \sum_{i=1}^n \frac{f \left( a+ \frac{b-a}{n}i \right)(b-a)}{n}$$
-\section{连续函数必有原函数}
-含有第一类间断点，无穷间断点的函数在包含间断点的区间没有原函数   \\
-跳跃间断点可以有原函数 \\
 
 \section{基本积分表}
 \includegraphics[width=14cm]{9345E7/9476215E0863B8FB681EC9D2BB921BDB.jpg}
@@ -88,7 +83,6 @@ $$ \int \frac{dx}{x^2-a^2}=\frac{1}{2a} \ln \left| \frac{x-a}{x+a} \right| +C$$
 $$ \int \frac{dx}{\sqrt{a^2-x^2}}=\arcsin \frac{x}{a}+C$$
 $$ \int \frac {dx}{\sqrt{x^2+a^2}}=\ln {(x+ \sqrt{x^2+a^2})}+C$$
 $$ \int \frac{dx}{\sqrt{x^2-a^2}}= \ln | x+\sqrt{x^2-a^2}|+C$$ \\
-$\int \frac{dx}{{(1+x^2)}^\frac{3}{2}}=\frac{x}{\sqrt{1+x^2}} +C $ \\
 
 \section{泰勒公式}
 $ e^{1+x}=e+ex+e \frac{x^2}{2!} + e \frac{x^3}{3!}+e\frac{x^4}{4!}$ \\
@@ -106,13 +100,11 @@ $$ \arctan x=x-\frac{x^3}{3}+o(x^3)$$
 
 
 \section{经典不等式}
-$$e^x \geq x+1 ; x-1 \geq \ln x ; \frac{1}{1+x} < \ln \left( 1+ \frac{1}{x} \right) < \frac{1}{x}$$
+$$\ln x +1 \leq x \leq e^x -1 $$
+$$ \frac{1}{1+x} < \ln \left( 1+ \frac{1}{x} \right) < \frac{1}{x}$$
 $$ e^t + e^{-t} \geq 2+t^2 $$
 
 $$ e^{αx} \gg x^b \gg \ln^y x $$
-$$ 2\left| ab \right| \leq a^2+b^2$$
-$$ \left| a \pm b \right| \leq |a|+|b|$$
-$$ \left| |a| - |b| \right| \leq |a-b|$$
 $$\frac{2}{\frac{1}{a} + \frac{1}{b}} \leq
 \sqrt{ab} \leq \frac{a+b}{2} \leq \sqrt{\frac{a^2+b^2}{2}}$$
 当 x>0,y>0,p>0,q>0,$\frac{1}{p}+\frac{1}{q}=1 \rightarrow xy \leq \frac{x^p}{p}+\frac{y^q}{q}$
@@ -123,10 +115,7 @@ $$\mbox{当} p>1, \frac{1}{p}+\frac{1}{q}=1 \mbox{时；} \left| \int_a^b f(x) \
 \section{定理}
 ​若$\int^{(n-1)}(x)$最多只有一个实零点,则f(x)最多只有n个不同实零点 \\
 $f^′(x)≠0$ 且连续⇒ f(x)单调 \\
-连续的**奇**函数的**一  切**原函数都是**偶**函数 \\
-连续的**偶**函数的**仅有一个**原函数都是**奇**函数 \\
 可积函数在区间内必有界 （二元也成立） \\
-f(x)是以ㄒ为周期的可积函数 \\
 
 \section{常见正弦积分}
 
